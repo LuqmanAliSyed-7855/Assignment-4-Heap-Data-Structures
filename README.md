@@ -1,1 +1,15 @@
 # Assignment-4-Heap-Data-Structures
+
+## Project Overview
+The project is focused on an application and study of heap-based data structures using Python programming language. What is being emphasized on is the use of a max-heap to sort the contents of an array using Heapsort, and a min-heap to perform a priority queue to prioritize tasks. The assigment is also accompanied with a comparative performance analysis of Heapsort to the other popular algorithms like Quicksirt and Merge Sort. The real-world task scheduling simulation demonstrates how the heap structures can help in processes requiring time-sensitive execution through priority-based execution.
+
+## Running the Code
+Heapsort implementation can be run by loading in a script called Heapsort Implementation in Python interpreter. In this script, it illustrates how to construct a max-heap, making extractions, and the sorting in ascending form.
+Modular testing separates the files of the procedure of priority queues. The insert task script shows the insertion of a task into a min-heap without changing the heap property. The script extract_min task shows how the task with the smallest priority value is removed. The decrease_key task new_priority script modifies a task's priority and re-heapifies the heap. The is_empty check script verifies whether the priority queue is empty.
+Data Structure script encapsulates the Task class and mimes out the task scheduling into the priority queue. Every task has its level of priority, time of arrival and deadline and the heap guarantees appropriate prioritization according to urgency.
+The script Comparison undertakes performance tests in Heapsort, Merge Sort and Quicksort with variable size and distribution of datasets. The results have comparisons of timing to verify theoretical complexities of algorithms.
+
+## Summary of Results
+The Heapsort algorithm gave a regular time complexity O(n log n) irrespective of the way it was introduced. The sorting mechanism that was done in-place employed a max-heap and used no auxiliary memory, feature that made it quite suited in memory speanwise environments. In order to perform the most pressing job in a first-come, first-served order, the priority queue was implemented as min-heap and this fits into the schedule theory of Shortest Job First and Earliest Deadline First.
+Individual tests were done on all core operations in order to check the behaviour of the heap. The operations involved insertion, removal of the minimum priority task, updating the priority of the tasks and empty check. All functions were implemented with the help of Python heapq module, so they are stable and fast.
+In the comparison study, Quicksort, which is internally optimized in Python with Timsort, was the fastest one. Merge Sort was quickly gained followed by Heapsort which had a balance between time and space. The theoretical performance requirements were realized in practical terms and were shown not just to be usable, but useful as well, using heap structures.
